@@ -1,0 +1,36 @@
+{
+    "income": [
+        {
+            "id": 1,
+            "name": "Gaji",
+            "amount": 4000000,
+            "category": "Gaji Pokok"
+        }
+    ],
+    "expense": [
+        {
+            "id": 1,
+            "name": "Listrik",
+            "amount": 200000,
+            "category": "Kebutuhan Pokok"
+        },
+        {
+            "id": 2,
+            "name": "Air",
+            "amount": 300000,
+            "category": "Kebutuhan Pokok"
+        },
+        {
+            "id": 3,
+            "name": "Sampah",
+            "amount": 50000,
+            "category": "Kebutuhan Pokok"
+        },
+        {
+            "id": 4,
+            "name": "Dapur",
+            "amount": 2000000,
+            "category": "Kebutuhan Pokok"
+        }
+    ]
+}
