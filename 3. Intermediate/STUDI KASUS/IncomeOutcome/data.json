@@ -5,6 +5,18 @@
             "name": "Gaji",
             "amount": 4000000,
             "category": "Gaji Pokok"
+        },
+        {
+            "id": 2,
+            "name": "Bonus",
+            "amount": 1000000,
+            "category": "Bonus"
+        },
+        {
+            "id": 3,
+            "name": "Bonus",
+            "amount": 1000000,
+            "category": "Bonus"
         }
     ],
     "expense": [

@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "name": "My Favorite Songs",
+    "songs": [
+      {
+        "id": 1,
+        "song": "lowkey",
+        "duration": 300,
+        "singer": "NIKI",
+        "genre": "acoustic"
+      },
+      {
+        "id": 2,
+        "song": "Nina",
+        "duration": 300,
+        "singer": ".Feast",
+        "genre": "acoustic"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Top Songs",
+    "songs": [
+      {
+        "id": 1,
+        "song": "Sialan",
+        "duration": 300,
+        "singer": "Mahalini",
+        "genre": "pop"
+      },
+      {
+        "id": 2,
+        "song": "Nina",
+        "duration": 300,
+        "singer": ".Feast",
+        "genre": "pop"
+      }
+    ]
+  }
+]
