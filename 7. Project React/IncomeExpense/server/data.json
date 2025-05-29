@@ -1,0 +1,66 @@
+{
+  "incomes": [
+    {
+      "id": 1,
+      "name": "Salary",
+      "amount": 5000,
+      "date": "2023-10-01"
+    },
+    {
+      "id": 2,
+      "name": "Freelance Work",
+      "amount": 1200,
+      "date": "2023-10-05"
+    },
+    {
+      "name": "gaji",
+      "amount": 15000000,
+      "date": "2025-05-12",
+      "id": 3
+    },
+    {
+      "name": "endorsement",
+      "date": "2025-05-20",
+      "amount": "400000",
+      "id": 4
+    },
+    {
+      "name": "endorsement indomie",
+      "date": "2025-05-29",
+      "amount": "120000000",
+      "id": 5
+    }
+  ],
+  "expenses": [
+    {
+      "id": 1,
+      "name": "Rent",
+      "amount": 1500,
+      "date": "2023-10-02"
+    },
+    {
+      "id": 2,
+      "name": "Groceries",
+      "amount": 300,
+      "date": "2023-10-03"
+    },
+    {
+      "id": 3,
+      "name": "Utilities",
+      "amount": 200,
+      "date": "2023-10-04"
+    },
+    {
+      "name": "transport",
+      "date": "2025-05-29",
+      "amount": "300000",
+      "id": 4
+    },
+    {
+      "name": "bensin",
+      "date": "2025-05-29",
+      "amount": "300000",
+      "id": 5
+    }
+  ]
+}

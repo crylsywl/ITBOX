@@ -8,6 +8,11 @@ const Homepage = () => {
   const [task, setTask] = useState();
 
   const submitHandler = () => {
+    if (!task || task.trim() === "") {
+      alert("Task tidak boleh kosong!");
+      return;
+    }
+
     axios({
       method: "POST",
       url: "http://localhost:3000/todos",
@@ -19,6 +24,8 @@ const Homepage = () => {
     })
       .then((result) => {
         console.log(result);
+        getData();
+        setTask("");
       })
       .catch((err) => {
         console.log(err);
@@ -107,7 +114,10 @@ const Homepage = () => {
             </thead>
             <tbody className="divide-y divide-gray-300">
               {todos.map((todos, index) => {
-                let rowClass = todos.id % 2 === 1 ? "bg-white" : "bg-blue-50";
+                let rowClass =
+                  index % 2 === 1
+                    ? "bg-blue-50 hover:bg-blue-100"
+                    : "bg-white hover:bg-blue-100";
                 return (
                   <tr key={todos.id} className={rowClass}>
                     <td className="p-4 text-sm text-gray-700 whitespace-nowrap">

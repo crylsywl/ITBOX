@@ -11,24 +11,6 @@
       "task": "Belajar React",
       "status": "pending",
       "priority": "medium"
-    },
-    {
-      "id": "53bc",
-      "task": "test",
-      "status": "pending",
-      "priority": "low"
-    },
-    {
-      "id": "5103",
-      "task": "test",
-      "status": "pending",
-      "priority": "low"
-    },
-    {
-      "id": "31ae",
-      "task": "Belajar Exspress",
-      "status": "pending",
-      "priority": "low"
     }
   ]
 }
